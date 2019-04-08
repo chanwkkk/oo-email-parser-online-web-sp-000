@@ -5,7 +5,6 @@
 class EmailParser
   def initialize(list)
     list_breakdown=list.scan(/\w+@\w+.com/)
-
   end
 
 
