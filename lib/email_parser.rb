@@ -11,8 +11,8 @@ class EmailParser
 
 
   def parse
-    list=self.email_list.scan(/\w+@\w+.com/)
-    list.uniq
+    self.email_list.scan(/\w+@\w+.com/)
+
   end
 
 
