@@ -4,7 +4,11 @@
 # or whitespace (' ').
 class EmailParser
   def initialize(list)
-    list_breakdown=list.scan(/\w+@\w+.com/)
+    list_breakdown=list.
+  end
+
+  def parse
+    self.scan(/\w+@\w+.com/)
   end
 
 
