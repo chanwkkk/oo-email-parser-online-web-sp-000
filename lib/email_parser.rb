@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailParser
   def initialize(list)
-    list_breakdown=list.
+    list
   end
 
   def parse
